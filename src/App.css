@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+.registry{
+  color: #fff;
+}
+
+.registry form{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.registry input[type="submit"] {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.registry input[type="submit"]:hover {
+  color: #fff;
+  background-color: rgb(38, 136, 255);
+  cursor:pointer;
+}
+
+.registry .remove, .update {
+  color: #fff;
+  background-color: #333;
+  padding: 5px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.registry .remove:hover {
+  color: #fff;
+  background-color: rgb(209, 46, 40);
+  border: 2px solid #000;
+  cursor:pointer;
+}
+
+.registry .update:hover {
+  color: #fff;
+  background-color: rgb(40, 209, 46);
+  border: 2px solid #000;
+  cursor:pointer;
+}
+
+.registry input[type="text"] {
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+ul{
+  margin-top: 50px;
+  list-style-type: square;
+  max-width: 400px;
+  margin:auto;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #000;
+}
+
+body{
+  background-color: #333 !important;
+}
+
+.registry a{
+  text-decoration: none;
+  color: #fff;
+}
